@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, Arial, Helvetica, sans-serif, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+.header {
+    background-color: rgb(205, 205, 205);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    gap: 16px;
+    padding: 10px;
+}
+
+a{
+    color: blue;
+    font-size: 1.5em;
+    text-decoration: none;
+}
