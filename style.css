@@ -53,6 +53,21 @@ p {
     height: 6cm;
 }
 
+.box-two-header {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.poke-pic {
+    width: 150px;
+}
+
 .footer {
     background-color: rgb(205, 205, 205);
     display: flex;
