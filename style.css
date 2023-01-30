@@ -88,17 +88,59 @@ p {
     background-color: rgb(205, 205, 205);
     display: flex;
     align-items: center;
-    flex-direction: column;
-    padding: 40px;
+    justify-content: center;
+    height: 250px;
 }
+
+.wraping {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+} 
 
 .quote {
     text-align: justify;
-    width: 600px;
 }
 
 .name {
     text-align: right;
+}
+
+.box-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.useless-box {
+    display: flex;
+    background-color: rgb(25, 37, 166);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    width: 800px;
+    height: 150px;
+    border-radius: 8px;
+    border: 3px solid rgb(11, 17, 75);
+}
+
+.bold-text {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+  color: white;
+  background-color: rgb(25, 37, 166);
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .footer {
