@@ -1,7 +1,6 @@
 body {
     height: 100vh;
-    margin: 0;
-    overflow: hidden;
+    margin: 0;    
     font-family: Roboto, Arial, Helvetica, sans-serif, sans-serif;
     display: flex;
     flex-direction: column;
@@ -28,7 +27,7 @@ ul {
 }
 
 a{
-    color: blue;
+    color: rgb(25, 37, 166);
     font-size: 1.5em;
     text-decoration: none;
 }
@@ -38,6 +37,7 @@ a{
     display: flex;
     justify-content: center;
     gap: 200px;
+    padding: 40px;
 }
 
 p {
@@ -53,19 +53,52 @@ p {
     height: 6cm;
 }
 
+.box-two {
+    
+}
+
 .box-two-header {
     display: flex;
     justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    gap: 300px;
+    gap: 100px;
+    padding: 20px;
+}
+
+.card {
+    width: 200px;
+    text-align: justify;
 }
 
 .poke-pic {
-    width: 150px;
+    width: 180px;
+    border: 3px solid rgb(25, 37, 166);
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+}
+
+.box-three {
+    background-color: rgb(205, 205, 205);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.quote {
+    text-align: justify;
+    width: 600px;
+}
+
+.name {
+    text-align: right;
 }
 
 .footer {
